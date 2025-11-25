@@ -99,3 +99,17 @@ Short-circuit conditions are applied to evaluate maximum current flow, internal 
 __Conclusion:__
 
 Understanding input and transfer impedance under open and short-circuit conditions is crucial for analyzing and designing electronic systems. These parameters reveal how circuits react to signals, how energy is transferred, and how boundary conditions affect performance across multiple engineering domains.
+
+__References:__
+
+1) D. M. Pozar, Microwave Engineering, 4th Edition, Wiley, 2011.
+https://www.wiley.com/en-us/Microwave+Engineering%2C+4th+Edition-p-9780470631553
+
+2) A. S. Sedra & K. C. Smith, Microelectronic Circuits, 7th Edition, Oxford University Press, 2015.
+https://global.oup.com/academic/product/microelectronic-circuits-9780199339136
+
+3) S. Haykin, Communication Systems, 5th Edition, Wiley, 2013.
+https://www.wiley.com/en-us/Communication+Systems%2C+5th+Edition-9780470561167
+
+4) Clayton R. Paul, Introduction to Electromagnetic Compatibility, 2nd Edition, Wiley, 2006.
+https://www.wiley.com/en-us/Introduction+to+Electromagnetic+Compatibility%2C+2nd+Edition-9780471733295
