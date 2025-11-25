@@ -75,7 +75,6 @@ Short-circuit analysis is widely used to study resonance, transmission line beha
 
 __Applications:__
 
-Applications
 Input Impedance
 
 Input impedance is applied in electronic and communication systems to ensure proper power transfer and minimize signal reflection between stages. It is essential in amplifier design, sensor interfacing, and measurement instruments where high input impedance is required to avoid loading the source. In high-frequency circuits and transmission lines, input impedance is used for impedance matching, enabling efficient signal flow and reducing losses caused by mismatched terminations.
