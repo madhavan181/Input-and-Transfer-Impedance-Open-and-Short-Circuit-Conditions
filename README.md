@@ -92,6 +92,9 @@ Short-Circuit Condition
 Short-circuit conditions are applied to evaluate maximum current flow, internal resistance, and system behavior under fault scenarios. They are critical in power system protection, helping design circuit breakers, fuses, and grounding schemes. In communication circuits, short-circuit analysis is used to study zero-load behavior, evaluate resonance characteristics, and assess stability. Short-circuit tests also help identify faults, verify conductor integrity, and ensure safety measures in electrical installations.
 
 
+![WhatsApp Image 2025-11-25 at 11 18 57_8916eb0b](https://github.com/user-attachments/assets/064d74da-634f-41d2-b406-4d01051cadc7)
+
+
 __Conclusion:__
 
 Understanding input and transfer impedance under open and short-circuit conditions is crucial for analyzing and designing electronic systems. These parameters reveal how circuits react to signals, how energy is transferred, and how boundary conditions affect performance across multiple engineering domains.
