@@ -29,7 +29,8 @@ Z_in = V_in / I_in
 
 
 Input impedance determines how well a source can transfer power to the network. A higher input impedance draws less current, while a lower input impedance allows more current to enter. In transmission lines, the input impedance varies with line length and termination conditions.
-                   <img width="290" height="162" alt="image" src="https://github.com/user-attachments/assets/2e2d7038-722f-4287-869a-1d3572236f48" />
+
+<img width="290" height="162" alt="image" src="https://github.com/user-attachments/assets/2e2d7038-722f-4287-869a-1d3572236f48" />
 
 
 __Transfer Impedance:__
