@@ -2,7 +2,11 @@
 
 __Introduction:__
 
-Input impedance and transfer impedance are fundamental electrical parameters used to characterize how circuits respond to signals under specific boundary conditions. These concepts are essential in RF engineering, transmission line analysis, and general circuit design. They help analyze voltage-current relationships at various nodes of a system and evaluate signal behavior when the system is terminated in different ways, such as open-circuit or short-circuit conditions.
+Input impedance and transfer impedance are key parameters used to describe how electrical networks respond to applied signals under different operating conditions. Input impedance refers to the ratio of input voltage to input current at the terminals of a circuit. It indicates how much the circuit opposes the incoming signal and plays a critical role in power transfer, signal integrity, and stage-to-stage interfacing.
+
+Transfer impedance defines the relationship between the input current at one point in a circuit and the resulting output voltage at another point. It is an important measure of coupling within a system and is commonly used in applications involving shielding effectiveness, electromagnetic compatibility, and interference analysis.
+
+These parameters are often evaluated under two fundamental boundary conditions: open-circuit and short-circuit terminations. In an open-circuit condition, the output or termination is left disconnected, resulting in zero current and a maximum possible voltage. In a short-circuit condition, the terminals are directly connected with negligible resistance, allowing maximum current flow while the voltage approaches zero.
 
 __What is Impedance?__
 
@@ -42,7 +46,7 @@ Z_t = V_out / I_in
 
 A high transfer impedance indicates strong coupling between input and output, while a low transfer impedance shows weak interaction. This parameter helps evaluate how signals propagate through complex systems.
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/95ef945a-2b65-4f4b-8ff5-c8fa1226db9c" />
+<img width="300" height="150" alt="image" src="https://github.com/user-attachments/assets/95ef945a-2b65-4f4b-8ff5-c8fa1226db9c" />
 
 
 __Open-Circuit Condition:__
@@ -71,15 +75,22 @@ Short-circuit analysis is widely used to study resonance, transmission line beha
 
 __Applications:__
 
-(1) RF and microwave circuit design
+Applications
+Input Impedance
 
-(2) Impedance matching techniques
+Input impedance is applied in electronic and communication systems to ensure proper power transfer and minimize signal reflection between stages. It is essential in amplifier design, sensor interfacing, and measurement instruments where high input impedance is required to avoid loading the source. In high-frequency circuits and transmission lines, input impedance is used for impedance matching, enabling efficient signal flow and reducing losses caused by mismatched terminations.
 
-(3) Transmission line fault detection
+Transfer Impedance
 
-(4) Electromagnetic compatibility and interference studies
+Transfer impedance is widely used in electromagnetic compatibility (EMC) studies, shielding analysis, and interference modeling. It quantifies how noise or signal currents at one point produce voltages at another, making it important for evaluating cable shields, connectors, and enclosures. This parameter is also used in crosstalk analysis, grounding system design, and the study of noise coupling in sensitive analog and RF circuits.
 
-(5) Power distribution network modeling
+Open-Circuit Condition
+
+Open-circuit conditions are used to study voltage behavior when current flow is zero, making them essential for Thevenin equivalent determination and source characterization. They are applied in measuring open-circuit voltage, analyzing reflections in transmission lines, and detecting breaks or discontinuities in networks. Open-circuit testing is also common in diagnostics, calibration, and verifying the behavior of circuits when no load is connected.
+
+Short-Circuit Condition
+
+Short-circuit conditions are applied to evaluate maximum current flow, internal resistance, and system behavior under fault scenarios. They are critical in power system protection, helping design circuit breakers, fuses, and grounding schemes. In communication circuits, short-circuit analysis is used to study zero-load behavior, evaluate resonance characteristics, and assess stability. Short-circuit tests also help identify faults, verify conductor integrity, and ensure safety measures in electrical installations.
 
 
 __Conclusion:__
